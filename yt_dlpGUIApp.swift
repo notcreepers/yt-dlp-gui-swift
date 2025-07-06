@@ -56,7 +56,7 @@ struct yt_dlpGUIApp: App {
             HStack {
                 Spacer()
                 Button("Report an Issue on GitHub") {
-                    NSWorkspace.shared.open(URL(string:"https://github.com/notcreepers")!)
+                    NSWorkspace.shared.open(URL(string:"https://github.com/notcreepers/yt-dlp-gui-swift/issues/new")!)
                 }
                 
                 Button("OK") {
